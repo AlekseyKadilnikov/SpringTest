@@ -17,34 +17,41 @@ public class PetModel implements Serializable {
         return instance;
     }
 
-    public void add(Pet pet, int id) {
+    public Map<String, String> add(Pet pet, int id) {
         model.put(id, pet);
+        Map<String, String> result = new HashMap<>();
+        result.put("result", "Питомец успешно создан");
+        return result;
     }
 
-    public void refreshPet(Pet pet, int id) throws Exception {
+    public Pet refreshPet(Pet pet, int id) throws PetNotFoundException {
         if(model.containsKey(id)) {
             Pet refreshedPet = model.get(id);
             refreshedPet.setAge(pet.getAge());
             refreshedPet.setType(pet.getType());
             refreshedPet.setName(pet.getName());
+            return refreshedPet;
         } else {
-            throw new Exception();
+            throw new PetNotFoundException();
         }
     }
 
-    public void remove(int id) throws Exception {
+    public Map<String, String> remove(int id) throws PetNotFoundException {
+        Map<String, String> result = new HashMap<>();
         if(model.containsKey(id)) {
             model.remove(id);
+            result.put("result", "Питомец успешно удален");
         } else {
-            throw new Exception();
+            throw new PetNotFoundException();
         }
+        return result;
     }
 
-    public Pet getFromList(int id) throws Exception {
+    public Pet getFromList(int id) throws PetNotFoundException {
         if(model.containsKey(id)) {
             return model.get(id);
         } else {
-            throw new Exception();
+            throw new PetNotFoundException();
         }
     }
 

@@ -13,8 +13,8 @@ public class CompassController {
     SideOfTheWorld sideOfTheWorld = new SideOfTheWorld();
 
     @PostMapping(value = "/compass/refresh", consumes = "application/json")
-    public void refreshDegrees(@RequestBody Map<String, Integer[]> sideOfTheWorld) {
-        this.sideOfTheWorld.refresh(sideOfTheWorld);
+    public Map<String, String> refreshDegrees(@RequestBody Map<String, String> sideOfTheWorldDraft) {
+        return sideOfTheWorld.refresh(sideOfTheWorldDraft);
     }
 
     /*

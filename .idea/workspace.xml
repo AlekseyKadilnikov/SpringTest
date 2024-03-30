@@ -4,22 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39e10989-1fc8-4719-9999-0559e352588c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/appline/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/appline/compass/controller/CompassController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/appline/compass/logic/SideOfTheWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/appline/pet/controller/PetController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/appline/pet/logic/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/appline/pet/logic/PetModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/appline/AppTest.java" afterDir="false" />
+    <list default="true" id="39e10989-1fc8-4719-9999-0559e352588c" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/appline/pet/logic/AwesomeExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/appline/pet/logic/PetNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/appline/compass/controller/CompassController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/appline/compass/controller/CompassController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/appline/compass/logic/SideOfTheWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/appline/compass/logic/SideOfTheWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/appline/pet/controller/PetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/appline/pet/controller/PetController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/appline/pet/logic/PetModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/appline/pet/logic/PetModel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -57,10 +49,14 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/JavaProjects/NewServlet"
+    "last_opened_file_path": "E:/JavaProjects/SpringTest",
+    "spring.configuration.checksum": "6751206cf12e01d85f7a30f595f02ad9"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.appline.pet.logic" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ru.appline.logic" />
     </key>
@@ -94,8 +90,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1711641628783</updated>
-      <workItem from="1711641631464" duration="10491000" />
+      <workItem from="1711641631464" duration="10955000" />
+      <workItem from="1711781709092" duration="5213000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1711652256045</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711652256045</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,5 +116,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>
